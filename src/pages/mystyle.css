@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.App {
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    height: 550px;
+    width: 380px;
+    border-radius: 15px;
+}
+
+.form-hearder {
+    padding-top: 20px;
+    background-color: aquamarine;
+}
+
+.form-group {
+    background-color: coral;
+    margin-top: 30px;
+    justify-content: left;
+}
+
+.input-control {
+    background-color: yellowgreen;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
