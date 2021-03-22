@@ -4,7 +4,7 @@
 }
 
 .App {
-    background-color: tomato;
+    background-color:white;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,16 +16,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: wheat;
+    justify-content: center;
+    background-color: white;
     height: 550px;
     width: 380px;
     border-radius: 15px;
+    box-shadow: 2px 5px 20px 2px #acacac;
+    /* background-color: yellow; */
 }
 
-.form-hearder {
+
+/* .form-hearder {
     padding-top: 20px;
     background-color: aquamarine;
-}
+} */
 
 .form-group {
     background-color: coral;
@@ -33,20 +37,41 @@
     justify-content: left;
 }
 
-.input-control {
-    background-color: yellowgreen;
-    
+.input-control, .form-hearder {
+    /* background-color: yellowgreen; */
+    /* height: 20px; */
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 label {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     text-align: left;
 }
 
+input {
+    margin-bottom: 5px;
+    height: 25px;
+    width: 250px;
+}
 
+button {
+    text-align: center;
+    width: 60px;
+    height: 25px;
+}
 
+/* .icons {
+    font-size: 80px;
+} */
 
+/* .eye {
+    padding-left: -37px;
+} */
 
 
 
